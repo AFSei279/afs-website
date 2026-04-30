@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-brand-paper text-brand-ink antialiased;
+  }
+
+  ::selection {
+    @apply bg-brand text-white;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display tracking-tight;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-page px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-md bg-brand px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-brand-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-md border border-brand bg-white px-5 py-2.5 text-sm font-semibold text-brand transition hover:bg-brand hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-semibold text-brand transition hover:bg-brand/5;
+  }
+
+  .card {
+    @apply rounded-xl border border-brand-line bg-white p-6 shadow-sm;
+  }
+
+  .field-label {
+    @apply mb-1 block text-sm font-medium text-brand-ink;
+  }
+
+  .field-input {
+    @apply w-full rounded-md border border-brand-line bg-white px-3 py-2 text-sm text-brand-ink shadow-sm transition focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/20;
+  }
+}

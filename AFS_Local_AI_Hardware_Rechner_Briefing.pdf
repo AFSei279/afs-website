@@ -1,0 +1,295 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [10 0 R 11 0 R 12 0 R 13 0 R 14 0 R] /Count 5 >>
+endobj
+4 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3923 >>
+stream
+BT /F2 18 Tf 50 784 Td (Website-Briefing: Lokaler KI-Hardware-Rechner) Tj ET
+BT /F1 12 Tf 50 760 Td (AFS Tech & Assets GmbH - MVP-Konzept fuer Claude / IONOS) Tj ET
+BT /F1 9 Tf 50 742 Td (Stand: 27.04.2026) Tj ET
+BT /F2 13 Tf 50 718 Td (Kurzfassung) Tj ET
+BT /F1 10 Tf 50 698 Td (Die AFS Tech & Assets GmbH soll mit einer nuetzlichen Website Umsatzpotenzial aufbauen.) Tj ET
+BT /F1 10 Tf 50 684 Td (  Der erste MVP ist ein lokaler KI-Hardware-Rechner. Nutzer koennen abschaetzen, ob ihr Mac,) Tj ET
+BT /F1 10 Tf 50 670 Td (  PC oder Server fuer lokale KI-Modelle geeignet ist. Der Rechner liefert eine) Tj ET
+BT /F1 10 Tf 50 656 Td (  Ampelbewertung, den geschaetzten Speicherbedarf, eine Hardware-Empfehlung und fuehrt zu) Tj ET
+BT /F1 10 Tf 50 642 Td (  einer Beratungsanfrage an AFS.) Tj ET
+BT /F1 10 Tf 50 623 Td (Dieses Dokument ist als Briefing fuer Claude bzw. den IONOS Website Builder gedacht.) Tj ET
+BT /F2 13 Tf 50 605 Td (1. Strategische Zielsetzung) Tj ET
+BT /F1 10 Tf 64 585 Td (- Keine reine SEO-Massenseite, sondern ein hochwertiges Tool mit echter) Tj ET
+BT /F1 10 Tf 64 571 Td (  Entscheidungsunterstuetzung.) Tj ET
+BT /F1 10 Tf 64 557 Td (- Lead-Magnet fuer AFS-Leistungen rund um lokale KI, DSGVO-freundliche LLMs, Hardware-) Tj ET
+BT /F1 10 Tf 64 543 Td (  Auswahl, Installation und Integration.) Tj ET
+BT /F1 10 Tf 64 529 Td (- Fokus nicht auf Werbeeinnahmen, sondern auf qualifizierten Anfragen von Selbststaendigen,) Tj ET
+BT /F1 10 Tf 64 515 Td (  kleinen GmbHs, Entwicklern und mittelstaendischen Unternehmen.) Tj ET
+BT /F1 10 Tf 64 501 Td (- Spaeterer Ausbau zu einem AFS Toolhub: zuerst Tech/KI, danach ggf. Kraftsport-Rechner und) Tj ET
+BT /F1 10 Tf 64 487 Td (  GmbH-Finanzrechner.) Tj ET
+BT /F2 13 Tf 50 469 Td (2. Positionierung der Seite) Tj ET
+BT /F1 10 Tf 50 449 Td (Arbeitstitel: Lokaler KI-Hardware-Rechner) Tj ET
+BT /F1 10 Tf 50 435 Td (Alternative englische Markenvariante: AFS Local AI Hardware Calculator) Tj ET
+BT /F1 10 Tf 50 416 Td (Hauptnutzen fuer Besucher:) Tj ET
+BT /F1 10 Tf 64 402 Td (- Schnell verstehen, ob vorhandene Hardware fuer lokale KI geeignet ist.) Tj ET
+BT /F1 10 Tf 64 388 Td (- RAM, VRAM, Modellgroesse und Quantisierung besser einordnen.) Tj ET
+BT /F1 10 Tf 64 374 Td (- Eine konkrete Hardware-Klasse empfohlen bekommen.) Tj ET
+BT /F1 10 Tf 64 360 Td (- Erkennen, wann professionelle Unterstuetzung sinnvoll ist.) Tj ET
+BT /F2 13 Tf 50 342 Td (3. Zielgruppe) Tj ET
+BT /F1 10 Tf 50 322 Td (Zielgruppen und typische Fragen:) Tj ET
+BT /F1 10 Tf 64 308 Td (- Solo-Selbststaendige / Freelancer: Reicht mein MacBook oder PC fuer lokale KI?) Tj ET
+BT /F1 10 Tf 64 294 Td (- Kleine GmbHs: Koennen wir Unternehmensdaten lokal mit KI auswerten?) Tj ET
+BT /F1 10 Tf 64 280 Td (- Entwickler: Welche Hardware brauche ich fuer Coding-Modelle?) Tj ET
+BT /F1 10 Tf 64 266 Td (- Mittelstand: Was kostet ein lokaler KI-Server fuer interne Nutzung?) Tj ET
+BT /F1 10 Tf 64 252 Td (- Technikinteressierte Entscheider: Apple Silicon, NVIDIA GPU oder Server - was ist) Tj ET
+BT /F1 10 Tf 64 238 Td (  sinnvoll?) Tj ET
+BT /F2 13 Tf 50 220 Td (4. MVP-Funktionsumfang: Eingaben) Tj ET
+BT /F1 10 Tf 50 200 Td (Der Rechner soll folgende Eingaben haben:) Tj ET
+BT /F1 8.5 Tf 60 181 Td (1\) Anwendungsfall) Tj ET
+BT /F1 10 Tf 50 169 Td (Optionen: Einfacher Chatbot, Coding-Assistent, Dokumentenanalyse, RAG-System mit) Tj ET
+BT /F1 10 Tf 50 155 Td (  Unternehmensdaten, mehrere Nutzer gleichzeitig, lokaler KI-Server fuer Firma.) Tj ET
+BT /F1 8.5 Tf 60 136 Td (2\) Modellklasse) Tj ET
+BT /F1 10 Tf 50 124 Td (Optionen: 3B-4B, 7B-8B, 13B-14B, 30B-34B, 70B.) Tj ET
+BT /F1 8.5 Tf 60 105 Td (3\) Quantisierung) Tj ET
+BT /F1 10 Tf 50 93 Td (Optionen: Q4, Q5, Q8, FP16. Tooltip: Q4 braucht wenig Speicher, Q8/FP16 mehr Speicher und) Tj ET
+BT /F1 10 Tf 50 79 Td (  tendenziell bessere Qualitaet.) Tj ET
+BT /F1 8 Tf 50 28 Td (AFS Tech & Assets GmbH - Lokaler KI-Hardware-Rechner - Seite 1/5) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Length 3483 >>
+stream
+BT /F1 8.5 Tf 60 784 Td (4\) Kontextlaenge) Tj ET
+BT /F1 10 Tf 50 772 Td (Optionen: 4k, 8k, 16k, 32k Tokens. Tooltip: laengere Dokumente und laengere Chats brauchen) Tj ET
+BT /F1 10 Tf 50 758 Td (  mehr Speicher.) Tj ET
+BT /F1 8.5 Tf 60 739 Td (5\) Plattform) Tj ET
+BT /F1 10 Tf 50 727 Td (Optionen: Apple Silicon, NVIDIA GPU, CPU-only PC, Mini-PC, Firmenserver, unbekannt.) Tj ET
+BT /F1 8.5 Tf 60 708 Td (6\) Vorhandener RAM) Tj ET
+BT /F1 10 Tf 50 696 Td (Zahl in GB.) Tj ET
+BT /F1 8.5 Tf 60 677 Td (7\) Vorhandener VRAM) Tj ET
+BT /F1 10 Tf 50 665 Td (Zahl in GB, optional. Bei Apple Silicon optional ausblenden oder als Hinweis auf Unified) Tj ET
+BT /F1 10 Tf 50 651 Td (  Memory behandeln.) Tj ET
+BT /F1 8.5 Tf 60 632 Td (8\) Gleichzeitige Nutzer) Tj ET
+BT /F1 10 Tf 50 620 Td (Optionen: 1, 2-3, 4-10, mehr als 10.) Tj ET
+BT /F2 13 Tf 50 602 Td (5. MVP-Funktionsumfang: Ausgaben) Tj ET
+BT /F1 10 Tf 50 582 Td (Der Rechner soll ausgeben:) Tj ET
+BT /F1 10 Tf 64 568 Td (- Ampelbewertung: Gruen = geeignet, Gelb = knapp/mit Einschraenkungen, Rot = nicht sinnvoll.) Tj ET
+BT /F1 10 Tf 64 554 Td (- Geschaetzter Speicherbedarf in GB.) Tj ET
+BT /F1 10 Tf 64 540 Td (- Empfohlene Mindest-Hardwareklasse.) Tj ET
+BT /F1 10 Tf 64 526 Td (- Kurze Begruendung in normaler Sprache.) Tj ET
+BT /F1 10 Tf 64 512 Td (- Empfehlung fuer kleinere/groessere Modellklasse, falls passend.) Tj ET
+BT /F1 10 Tf 64 498 Td (- Call-to-Action: Hardware-Check oder Beratung durch AFS anfragen.) Tj ET
+BT /F2 13 Tf 50 480 Td (6. Erste Rechnerlogik fuer den MVP) Tj ET
+BT /F1 10 Tf 50 460 Td (Die Rechenlogik muss in Version 1 nicht perfekt benchmarkgenau sein. Sie soll konservativ,) Tj ET
+BT /F1 10 Tf 50 446 Td (  transparent und fuer Nutzer verstaendlich sein.) Tj ET
+BT /F1 10 Tf 50 427 Td (Modellgewicht-Tabelle in GB:) Tj ET
+BT /F1 8.5 Tf 60 413 Td (Modellklasse | Q4  | Q5   | Q8 | FP16) Tj ET
+BT /F1 8.5 Tf 60 401 Td (3B-4B        | 2.5 | 3.5  | 5  | 8) Tj ET
+BT /F1 8.5 Tf 60 389 Td (7B-8B        | 5   | 6.5  | 9  | 16) Tj ET
+BT /F1 8.5 Tf 60 377 Td (13B-14B      | 9   | 11   | 16 | 28) Tj ET
+BT /F1 8.5 Tf 60 365 Td (30B-34B      | 22  | 26   | 38 | 70) Tj ET
+BT /F1 8.5 Tf 60 353 Td (70B          | 45  | 55   | 80 | 150) Tj ET
+BT /F1 10 Tf 50 336 Td (Kontextaufschlag:) Tj ET
+BT /F1 10 Tf 50 322 Td (4k = +1 GB, 8k = +2 GB, 16k = +4 GB, 32k = +8 GB.) Tj ET
+BT /F1 10 Tf 50 303 Td (Plattformreserve:) Tj ET
+BT /F1 8.5 Tf 60 289 Td (Apple Silicon = +4 GB) Tj ET
+BT /F1 8.5 Tf 60 277 Td (NVIDIA GPU = +2 GB VRAM plus Hinweis auf 8 GB System-RAM) Tj ET
+BT /F1 8.5 Tf 60 265 Td (CPU-only = +8 GB) Tj ET
+BT /F1 8.5 Tf 60 253 Td (Server = +16 GB) Tj ET
+BT /F1 8.5 Tf 60 241 Td (Unbekannt = +8 GB) Tj ET
+BT /F1 10 Tf 50 224 Td (Formel:) Tj ET
+BT /F1 8.5 Tf 60 210 Td (requiredMemoryGb = \(modelWeightGb + contextOverheadGb + platformReserveGb\) *) Tj ET
+BT /F1 8.5 Tf 60 198 Td (  userMultiplier * 1.2) Tj ET
+BT /F1 10 Tf 50 181 Td (Der Faktor 1.2 ist ein Sicherheitsaufschlag von 20 Prozent.) Tj ET
+BT /F2 13 Tf 50 163 Td (7. Nutzer-Multiplikator und Statuslogik) Tj ET
+BT /F1 10 Tf 50 143 Td (Multiplikator fuer gleichzeitige Nutzer:) Tj ET
+BT /F1 10 Tf 50 129 Td (1 Nutzer: Faktor 1.00) Tj ET
+BT /F1 10 Tf 50 115 Td (2-3 Nutzer: Faktor 1.25) Tj ET
+BT /F1 10 Tf 50 101 Td (4-10 Nutzer: Faktor 1.75) Tj ET
+BT /F1 10 Tf 50 87 Td (Mehr als 10 Nutzer: Faktor 2.50) Tj ET
+BT /F1 10 Tf 50 68 Td (Statuslogik:) Tj ET
+BT /F1 8 Tf 50 28 Td (AFS Tech & Assets GmbH - Lokaler KI-Hardware-Rechner - Seite 2/5) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Length 3936 >>
+stream
+BT /F1 8.5 Tf 60 784 Td (Gruen: availableGb / requiredGb >= 1.25) Tj ET
+BT /F1 8.5 Tf 60 772 Td (Gelb:  availableGb / requiredGb >= 0.90) Tj ET
+BT /F1 8.5 Tf 60 760 Td (Rot:   darunter) Tj ET
+BT /F1 10 Tf 50 743 Td (Beispieltexte:) Tj ET
+BT /F1 8.5 Tf 60 729 Td (Gruen: Ihre Hardware ist fuer diese Modellklasse gut geeignet.) Tj ET
+BT /F1 8.5 Tf 60 717 Td (Gelb: Es kann funktionieren, aber bei langen Kontexten oder mehreren Nutzern kann) Tj ET
+BT /F1 8.5 Tf 60 705 Td (  es langsam werden.) Tj ET
+BT /F1 8.5 Tf 60 693 Td (Rot: Diese Hardware ist fuer das gewaehlte Modell zu schwach. Waehlen Sie ein) Tj ET
+BT /F1 8.5 Tf 60 681 Td (  kleineres Modell oder staerkere Hardware.) Tj ET
+BT /F2 13 Tf 50 665 Td (8. Seitenstruktur fuer IONOS / Claude) Tj ET
+BT /F1 8.5 Tf 60 645 Td (1\) Hero-Bereich) Tj ET
+BT /F1 10 Tf 50 633 Td (H1: Lokaler KI-Hardware-Rechner) Tj ET
+BT /F1 10 Tf 50 619 Td (Subheadline: Pruefen Sie, ob Ihr Mac, PC oder Server fuer lokale KI-Modelle wie Llama,) Tj ET
+BT /F1 10 Tf 50 605 Td (  Qwen, Mistral oder DeepSeek geeignet ist.) Tj ET
+BT /F1 8.5 Tf 60 586 Td (2\) Rechner) Tj ET
+BT /F1 10 Tf 50 574 Td (Interaktives Formular mit den beschriebenen Eingaben. Ergebnis sofort auf der Seite) Tj ET
+BT /F1 10 Tf 50 560 Td (  anzeigen.) Tj ET
+BT /F1 8.5 Tf 60 541 Td (3\) Ergebnisbox) Tj ET
+BT /F1 10 Tf 50 529 Td (Ampel, Speicherbedarf, Empfehlung, kurzer Erklaertext und CTA.) Tj ET
+BT /F1 8.5 Tf 60 510 Td (4\) Erklaerbereich) Tj ET
+BT /F1 10 Tf 50 498 Td (Kurz erklaeren: RAM, VRAM, Unified Memory, Quantisierung und Kontextlaenge.) Tj ET
+BT /F1 8.5 Tf 60 479 Td (5\) Lokale KI fuer Unternehmen) Tj ET
+BT /F1 10 Tf 50 467 Td (AFS-Leistungen vorstellen: Hardware-Auswahl, lokale LLM-Installation, Ollama / LM Studio /) Tj ET
+BT /F1 10 Tf 50 453 Td (  Open WebUI Setup, RAG mit Unternehmensdaten, DSGVO-freundliche Architektur, Integration in) Tj ET
+BT /F1 10 Tf 50 439 Td (  bestehende Workflows.) Tj ET
+BT /F1 8.5 Tf 60 420 Td (6\) FAQ) Tj ET
+BT /F1 10 Tf 50 408 Td (Haeufige Fragen beantworten.) Tj ET
+BT /F1 8.5 Tf 60 389 Td (7\) Kontakt/CTA) Tj ET
+BT /F1 10 Tf 50 377 Td (Button: Hardware-Check durch AFS anfragen. Alternative: Kontaktformular oder E-Mail an) Tj ET
+BT /F1 10 Tf 50 363 Td (  kontakt@afs-ta.com.) Tj ET
+BT /F2 13 Tf 50 345 Td (9. Textvorschlaege fuer die Website) Tj ET
+BT /F1 10 Tf 50 325 Td (Hero-Text:) Tj ET
+BT /F1 10 Tf 50 311 Td (Lokaler KI-Hardware-Rechner) Tj ET
+BT /F1 10 Tf 50 297 Td (Finden Sie heraus, ob Ihr Mac, PC oder Server fuer lokale KI-Modelle geeignet ist. Der) Tj ET
+BT /F1 10 Tf 50 283 Td (  Rechner schaetzt RAM, VRAM, Modellgroesse, Quantisierung und Kontextlaenge ein - und gibt) Tj ET
+BT /F1 10 Tf 50 269 Td (  eine klare Hardware-Empfehlung.) Tj ET
+BT /F1 10 Tf 50 250 Td (CTA-Text:) Tj ET
+BT /F1 10 Tf 50 236 Td (Sie moechten lokale KI im Unternehmen einsetzen? AFS Tech & Assets GmbH unterstuetzt bei) Tj ET
+BT /F1 10 Tf 50 222 Td (  Hardware-Auswahl, Installation, lokaler LLM-Infrastruktur, RAG mit Unternehmensdaten und) Tj ET
+BT /F1 10 Tf 50 208 Td (  DSGVO-freundlicher Integration.) Tj ET
+BT /F1 10 Tf 50 194 Td (Button: Hardware-Check durch AFS anfragen) Tj ET
+BT /F1 10 Tf 50 175 Td (Haftungshinweis:) Tj ET
+BT /F1 10 Tf 50 161 Td (Die Berechnung ist eine technische Orientierung und ersetzt keine individuelle Hardware-) Tj ET
+BT /F1 10 Tf 50 147 Td (  Planung. Der tatsaechliche Bedarf haengt von Modell, Software, Betriebssystem,) Tj ET
+BT /F1 10 Tf 50 133 Td (  Kontextlaenge, Anzahl Nutzer und Performance-Anforderungen ab.) Tj ET
+BT /F2 13 Tf 50 115 Td (10. SEO-Grundlagen) Tj ET
+BT /F1 8.5 Tf 60 95 Td (URL deutsch: /tools/lokaler-ki-hardware-rechner) Tj ET
+BT /F1 8.5 Tf 60 83 Td (URL englisch spaeter: /tools/local-ai-hardware-calculator) Tj ET
+BT /F1 8.5 Tf 60 71 Td (SEO Title: Lokaler KI-Hardware-Rechner: RAM, VRAM und GPU fuer LLMs berechnen) Tj ET
+BT /F1 8 Tf 50 28 Td (AFS Tech & Assets GmbH - Lokaler KI-Hardware-Rechner - Seite 3/5) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Length 3930 >>
+stream
+BT /F1 8.5 Tf 60 784 Td (Meta Description: Berechnen Sie, ob Ihr Mac, PC oder Server fuer lokale KI-Modelle) Tj ET
+BT /F1 8.5 Tf 60 772 Td (  geeignet ist. RAM, VRAM, Modellgroesse, Quantisierung und Hardware-Empfehlung) Tj ET
+BT /F1 8.5 Tf 60 760 Td (  einfach pruefen.) Tj ET
+BT /F1 8.5 Tf 60 748 Td (Primaeres Keyword: lokaler KI Hardware Rechner) Tj ET
+BT /F1 8.5 Tf 60 736 Td (Sekundaere Keywords: LLM RAM Rechner, VRAM Rechner KI, lokale KI Hardware, Ollama) Tj ET
+BT /F1 8.5 Tf 60 724 Td (  Hardware, KI Server Rechner.) Tj ET
+BT /F2 13 Tf 50 708 Td (11. Technische Hinweise fuer Claude / Umsetzung) Tj ET
+BT /F1 10 Tf 64 688 Td (- Erste Version als statische Seite mit clientseitiger JavaScript-/TypeScript-Logik) Tj ET
+BT /F1 10 Tf 64 674 Td (  umsetzen.) Tj ET
+BT /F1 10 Tf 64 660 Td (- Keine Benutzerkonten, kein Backend und keine Datenbank im MVP notwendig.) Tj ET
+BT /F1 10 Tf 64 646 Td (- Formulareingaben lokal im Browser berechnen.) Tj ET
+BT /F1 10 Tf 64 632 Td (- Kontaktformular nur einbinden, wenn IONOS dies einfach und DSGVO-konform bereitstellt;) Tj ET
+BT /F1 10 Tf 64 618 Td (  ansonsten E-Mail-Link verwenden.) Tj ET
+BT /F1 10 Tf 64 604 Td (- Design: modern, klar, technisch-serioes, AFS-nahe Farben, keine ueberladenen Animationen.) Tj ET
+BT /F1 10 Tf 64 590 Td (- Responsive Darstellung fuer Smartphone, Tablet und Desktop beachten.) Tj ET
+BT /F1 10 Tf 64 576 Td (- Ergebnisbox soll visuell auffallen und sofort verstaendlich sein.) Tj ET
+BT /F2 13 Tf 50 558 Td (12. Beispiel-Datenmodell fuer Claude) Tj ET
+BT /F1 8.5 Tf 60 538 Td (type ModelSize = "3B" | "7B" | "13B" | "30B" | "70B";) Tj ET
+BT /F1 8.5 Tf 60 526 Td (type Quantization = "q4" | "q5" | "q8" | "fp16";) Tj ET
+BT /F1 8.5 Tf 60 514 Td (type ContextLength = "4k" | "8k" | "16k" | "32k";) Tj ET
+BT /F1 8.5 Tf 60 502 Td (type Platform = "apple_silicon" | "nvidia_gpu" | "cpu_only" | "server" |) Tj ET
+BT /F1 8.5 Tf 60 490 Td (  "unknown";) Tj ET
+BT /F1 8.5 Tf 60 473 Td (const modelMemoryTable = {) Tj ET
+BT /F1 8.5 Tf 60 461 Td ("3B":  { q4: 2.5, q5: 3.5, q8: 5,  fp16: 8 },) Tj ET
+BT /F1 8.5 Tf 60 449 Td ("7B":  { q4: 5,   q5: 6.5, q8: 9,  fp16: 16 },) Tj ET
+BT /F1 8.5 Tf 60 437 Td ("13B": { q4: 9,   q5: 11,  q8: 16, fp16: 28 },) Tj ET
+BT /F1 8.5 Tf 60 425 Td ("30B": { q4: 22,  q5: 26,  q8: 38, fp16: 70 },) Tj ET
+BT /F1 8.5 Tf 60 413 Td ("70B": { q4: 45,  q5: 55,  q8: 80, fp16: 150 }) Tj ET
+BT /F1 8.5 Tf 60 401 Td (};) Tj ET
+BT /F1 8.5 Tf 60 384 Td (function userMultiplier\(users: number\): number {) Tj ET
+BT /F1 8.5 Tf 60 372 Td (if \(users <= 1\) return 1;) Tj ET
+BT /F1 8.5 Tf 60 360 Td (if \(users <= 3\) return 1.25;) Tj ET
+BT /F1 8.5 Tf 60 348 Td (if \(users <= 10\) return 1.75;) Tj ET
+BT /F1 8.5 Tf 60 336 Td (return 2.5;) Tj ET
+BT /F1 8.5 Tf 60 324 Td (}) Tj ET
+BT /F1 8.5 Tf 60 307 Td (function getStatus\(availableGb: number, requiredGb: number\) {) Tj ET
+BT /F1 8.5 Tf 60 295 Td (const ratio = availableGb / requiredGb;) Tj ET
+BT /F1 8.5 Tf 60 283 Td (if \(ratio >= 1.25\) return "green";) Tj ET
+BT /F1 8.5 Tf 60 271 Td (if \(ratio >= 0.9\) return "yellow";) Tj ET
+BT /F1 8.5 Tf 60 259 Td (return "red";) Tj ET
+BT /F1 8.5 Tf 60 247 Td (}) Tj ET
+BT /F2 13 Tf 50 231 Td (13. Erweiterungen nach dem MVP) Tj ET
+BT /F1 10 Tf 64 211 Td (- PDF-Export des Ergebnisses fuer Unternehmen.) Tj ET
+BT /F1 10 Tf 64 197 Td (- Hardware-Preisvergleich oder Affiliate-Links zu passenden Komponenten.) Tj ET
+BT /F1 10 Tf 64 183 Td (- Eigene Seiten fuer MacBook KI-Rechner, GPU-VRAM-Rechner, NAS-Speicher-Rechner und Firmen-) Tj ET
+BT /F1 10 Tf 64 169 Td (  KI-Server-Rechner.) Tj ET
+BT /F1 10 Tf 64 155 Td (- Lead-Magnet: kostenlose Checkliste "Lokale KI im Unternehmen einfuehren".) Tj ET
+BT /F1 10 Tf 64 141 Td (- Englische Version fuer internationalen Traffic.) Tj ET
+BT /F1 10 Tf 64 127 Td (- Spaetere Integration in einen AFS Toolhub.) Tj ET
+BT /F1 8 Tf 50 28 Td (AFS Tech & Assets GmbH - Lokaler KI-Hardware-Rechner - Seite 4/5) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Length 2374 >>
+stream
+BT /F2 13 Tf 50 784 Td (14. Prioritaeten fuer die erste Version) Tj ET
+BT /F1 10 Tf 50 764 Td (Muss: Rechner mit Eingaben, Speicherlogik, Ampel, Empfehlung, CTA.) Tj ET
+BT /F1 10 Tf 50 750 Td (Soll: Erklaertexte zu RAM, VRAM, Quantisierung, Kontextlaenge und lokaler KI.) Tj ET
+BT /F1 10 Tf 50 736 Td (Kann: FAQ, schoenere Karten, Beispielprofile, einfache Animationen.) Tj ET
+BT /F1 10 Tf 50 722 Td (Spaeter: Preisvergleich, Affiliate, PDF-Export, API, Benutzerkonto, SaaS-Funktionen.) Tj ET
+BT /F2 13 Tf 50 704 Td (15. Direkt nutzbarer Prompt fuer Claude / IONOS) Tj ET
+BT /F1 10 Tf 50 684 Td (Erstelle eine moderne, serioese Website-Seite fuer die AFS Tech & Assets GmbH mit dem) Tj ET
+BT /F1 10 Tf 50 670 Td (  Titel "Lokaler KI-Hardware-Rechner". Die Seite soll einen interaktiven Rechner enthalten,) Tj ET
+BT /F1 10 Tf 50 656 Td (  mit dem Nutzer abschaetzen koennen, ob ihr Mac, PC oder Server fuer lokale KI-Modelle) Tj ET
+BT /F1 10 Tf 50 642 Td (  geeignet ist.) Tj ET
+BT /F1 10 Tf 50 623 Td (Nutze folgende Eingaben: Anwendungsfall, Modellklasse, Quantisierung, Kontextlaenge,) Tj ET
+BT /F1 10 Tf 50 609 Td (  Plattform, vorhandener RAM, vorhandener VRAM und Anzahl gleichzeitiger Nutzer. Berechne) Tj ET
+BT /F1 10 Tf 50 595 Td (  daraus einen geschaetzten Speicherbedarf anhand der Tabellen und Formel aus diesem) Tj ET
+BT /F1 10 Tf 50 581 Td (  Briefing. Gib eine Ampelbewertung aus: Gruen, Gelb oder Rot. Zeige ausserdem eine klare) Tj ET
+BT /F1 10 Tf 50 567 Td (  Hardware-Empfehlung und eine kurze Erklaerung.) Tj ET
+BT /F1 10 Tf 50 548 Td (Die Seite soll als Lead-Magnet fuer AFS dienen. Fuege einen Call-to-Action ein: "Hardware-) Tj ET
+BT /F1 10 Tf 50 534 Td (  Check durch AFS anfragen". Beschreibe, dass AFS Tech & Assets GmbH bei Hardware-Auswahl,) Tj ET
+BT /F1 10 Tf 50 520 Td (  lokaler LLM-Installation, RAG mit Unternehmensdaten und DSGVO-freundlicher Integration) Tj ET
+BT /F1 10 Tf 50 506 Td (  unterstuetzt.) Tj ET
+BT /F1 10 Tf 50 487 Td (Design: modern, technisch, vertrauenswuerdig, responsive, klare Karten, gut lesbare) Tj ET
+BT /F1 10 Tf 50 473 Td (  Ergebnisbox, nicht ueberladen. Sprache: Deutsch. Zielgruppe: kleine Unternehmen,) Tj ET
+BT /F1 10 Tf 50 459 Td (  Selbststaendige, Entwickler und Entscheider, die lokale KI nutzen moechten.) Tj ET
+BT /F1 8 Tf 50 28 Td (AFS Tech & Assets GmbH - Lokaler KI-Hardware-Rechner - Seite 5/5) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+11 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 6 0 R >>
+endobj
+12 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
+endobj
+13 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 8 0 R >>
+endobj
+14 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 9 0 R >>
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000000246 00000 n 
+0000000295 00000 n 
+0000004270 00000 n 
+0000007805 00000 n 
+0000011793 00000 n 
+0000015775 00000 n 
+0000018201 00000 n 
+0000018338 00000 n 
+0000018475 00000 n 
+0000018612 00000 n 
+0000018749 00000 n 
+trailer
+<< /Size 15 /Root 4 0 R >>
+startxref
+18886
+%%EOF

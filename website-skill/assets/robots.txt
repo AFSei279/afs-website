@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /lp/
+
+Sitemap: https://afs-ta.com/sitemap.xml
