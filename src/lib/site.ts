@@ -7,7 +7,7 @@
 export const SITE = {
   name: "AFS Tech & Assets GmbH",
   shortName: "AFS Tech & Assets",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://afs-ta.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://afs-ta.com",
   tagline:
     "Lokale, DSGVO-freundliche KI für den Mittelstand — Beratung, Hardware, Implementierung.",
   // Öffentliche Kontaktadresse für das Lead-Formular und Impressum.
