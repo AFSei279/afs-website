@@ -39,7 +39,9 @@ export const metadata: Metadata = {
   authors: [{ name: SITE.founder.name }],
 };
 
-const PLAUSIBLE_DOMAIN = process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN;
+const UMAMI_WEBSITE_ID = process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID;
+const UMAMI_SRC =
+  process.env.NEXT_PUBLIC_UMAMI_SRC || "https://cloud.umami.is/script.js";
 
 export default function RootLayout({
   children,
@@ -53,11 +55,11 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
 
-        {PLAUSIBLE_DOMAIN && (
+        {UMAMI_WEBSITE_ID && (
           <Script
             defer
-            data-domain={PLAUSIBLE_DOMAIN}
-            src="https://plausible.io/js/script.js"
+            data-website-id={UMAMI_WEBSITE_ID}
+            src={UMAMI_SRC}
             strategy="afterInteractive"
           />
         )}
