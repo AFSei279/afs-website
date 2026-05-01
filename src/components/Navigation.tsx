@@ -17,7 +17,7 @@ export function Navigation() {
           onClick={() => setOpen(false)}
         >
           <Image
-            src="/Logo.png"
+            src="/logo.png"
             alt="AFS Tech & Assets Logo"
             width={40}
             height={40}
