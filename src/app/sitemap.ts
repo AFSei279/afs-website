@@ -8,6 +8,8 @@ const ROUTES: { path: string; priority: number; changeFrequency: "weekly" | "mon
   { path: "/tools/lokaler-ki-hardware-rechner/", priority: 0.9, changeFrequency: "monthly" },
   { path: "/ueber-mich/", priority: 0.6, changeFrequency: "monthly" },
   { path: "/kontakt/", priority: 0.5, changeFrequency: "yearly" },
+  { path: "/brettany-support/", priority: 0.5, changeFrequency: "monthly" },
+  { path: "/brettany-privacy/", priority: 0.3, changeFrequency: "yearly" },
   { path: "/impressum/", priority: 0.1, changeFrequency: "yearly" },
 ];
 
