@@ -47,6 +47,7 @@ export type NavLink = {
 export const NAV_LINKS: ReadonlyArray<NavLink> = [
   { href: "/", label: "Start" },
   { href: "/leistungen/", label: "Leistungen" },
+  { href: "/produkte/", label: "Digitale Produkte" },
   {
     href: "/tools/lokaler-ki-hardware-rechner/",
     label: "KI-Hardware-Rechner",
