@@ -23,13 +23,33 @@ export function Footer() {
           <div>
             <p className="text-sm font-semibold text-brand-ink">Navigation</p>
             <ul className="mt-3 space-y-2 text-sm text-brand-muted">
-              {NAV_LINKS.map((link) => (
-                <li key={link.href}>
-                  <Link href={link.href} className="hover:text-brand">
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
+              {NAV_LINKS.map((link) => {
+                // Gruppen (z. B. Brettany) werden als nicht klickbares Label
+                // mit eingerückten Unterpunkten dargestellt.
+                if (link.children && link.children.length > 0) {
+                  return (
+                    <li key={link.label}>
+                      <span className="text-brand-ink">{link.label}</span>
+                      <ul className="mt-1 ml-3 space-y-1 border-l border-brand-line pl-3">
+                        {link.children.map((child) => (
+                          <li key={child.href}>
+                            <Link href={child.href} className="hover:text-brand">
+                              {child.label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </li>
+                  );
+                }
+                return (
+                  <li key={link.href}>
+                    <Link href={link.href!} className="hover:text-brand">
+                      {link.label}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 

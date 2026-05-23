@@ -34,12 +34,29 @@ export const SITE = {
   },
 } as const;
 
-export const NAV_LINKS = [
+/**
+ * Ein Eintrag in der Hauptnavigation. Entweder ein direkter Link
+ * (`href` gesetzt) oder eine Gruppe mit Unterpunkten (`children` gesetzt).
+ */
+export type NavLink = {
+  label: string;
+  href?: string;
+  children?: ReadonlyArray<{ href: string; label: string }>;
+};
+
+export const NAV_LINKS: ReadonlyArray<NavLink> = [
   { href: "/", label: "Start" },
   { href: "/leistungen/", label: "Leistungen" },
   {
     href: "/tools/lokaler-ki-hardware-rechner/",
     label: "KI-Hardware-Rechner",
+  },
+  {
+    label: "Brettany",
+    children: [
+      { href: "/brettany-support/", label: "Support" },
+      { href: "/brettany-privacy/", label: "Datenschutz" },
+    ],
   },
   { href: "/ueber-mich/", label: "Über mich" },
   { href: "/kontakt/", label: "Kontakt" },
