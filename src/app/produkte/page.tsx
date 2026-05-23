@@ -23,14 +23,14 @@ const PRODUCTS: Product[] = [
   {
     id: "lokale-ki-hardware-guide",
     badge: "PDF-Guide",
-    title: "Lokaler KI Hardware Guide",
+    title: "Lokale KI: Der Hardware-Guide 2026",
     subtitle: "Die richtige Hardware für Ihre lokale KI — ohne Rätselraten.",
     description:
       "Wer eine KI lokal betreiben will, steht schnell vor der Frage: Welche Hardware brauche ich eigentlich? Dieser Guide beantwortet sie konkret — ohne Marketing-Sprech, dafür mit klaren Empfehlungen für Apple Silicon, NVIDIA-Workstations und dedizierte Server.",
     bullets: [
       "Welche Parameter bei der Hardware-Wahl wirklich zählen (RAM, VRAM, Bandbreite).",
       "Modellklassen und ihre Anforderungen — von 7B bis 70B.",
-      "Apple Silicon, NVIDIA, AMD: Stärken und Grenzen der drei Plattformen.",
+      "Apple Silicon, NVIDIA-PCs und Server-Setups: Stärken und Grenzen der wichtigsten Plattformen.",
       "Konkrete Kaufempfehlungen mit Preisspannen für KMU-Budgets.",
       "Checkliste: Ist meine vorhandene Hardware KI-tauglich?",
     ],
