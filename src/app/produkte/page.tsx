@@ -10,6 +10,7 @@ export const metadata = {
 type Product = {
   id: string;
   badge: string;
+  badgeVariant?: "default" | "bundle";
   title: string;
   subtitle: string;
   description: string;
@@ -17,6 +18,7 @@ type Product = {
   format: string;
   href: string;
   price: string;
+  highlight?: boolean;
 };
 
 const PRODUCTS: Product[] = [
@@ -38,7 +40,45 @@ const PRODUCTS: Product[] = [
     href: "https://afstechassets.gumroad.com/l/local-ai-hardware-guide",
     price: "Jetzt kaufen",
   },
+  {
+    id: "lokale-ki-setup-playbook",
+    badge: "PDF-Guide",
+    title: "Lokale KI: Das Setup-Playbook",
+    subtitle: "Von der ersten Installation bis zum lokalen KI-Setup.",
+    description:
+      "Das Playbook zeigt dir Schritt für Schritt, wie du mit LM Studio, Ollama, Open WebUI, lokalen Modellen, Testprompts und ersten RAG-Grundlagen startest.",
+    bullets: [
+      "LM Studio, Ollama und Open WebUI",
+      "Lokale Modelle installieren und testen",
+      "10 direkt nutzbare Testprompts",
+      "Lokale API- und Automationsgrundlagen",
+      "Troubleshooting, 7-Tage-Plan und 30-Tage-Ausbauplan",
+    ],
+    format: "PDF · Sofort-Download",
+    href: "https://afstechassets.gumroad.com/l/local-ai-setup-playbook",
+    price: "Jetzt kaufen",
+  },
 ];
+
+const BUNDLE: Product = {
+  id: "local-ai-starter-bundle",
+  badge: "Bundle",
+  badgeVariant: "bundle",
+  title: "Local AI Starter Bundle",
+  subtitle: "Das komplette Starterpaket für lokale KI: Hardware verstehen, Setup umsetzen und lokale KI sinnvoll starten.",
+  description: "",
+  bullets: [
+    "Hardware-Guide + Setup-Playbook",
+    "Mac, PC, Server, RAM, VRAM und Modellgrößen",
+    "LM Studio, Ollama, Open WebUI und RAG-Grundlagen",
+    "Checklisten, Testprompts und 30-Tage-Plan",
+    "Einzeln 88 €, im Bundle 79 €",
+  ],
+  format: "2 PDFs · Sofort-Download",
+  href: "https://afstechassets.gumroad.com/l/local-ai-starter-bundle",
+  price: "Bundle kaufen",
+  highlight: true,
+};
 
 export default function ProduktePage() {
   return (
@@ -60,21 +100,19 @@ export default function ProduktePage() {
         </div>
       </section>
 
-      {/* Produktkarten */}
+      {/* Einzelprodukte */}
       <section className="container-page py-16">
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2">
           {PRODUCTS.map((p) => (
             <article
               key={p.id}
               id={p.id}
               className="card flex flex-col scroll-mt-24"
             >
-              {/* Badge */}
               <span className="inline-block self-start rounded-full bg-brand-accent/15 px-3 py-0.5 text-xs font-semibold uppercase tracking-wider text-brand-accent-dark">
                 {p.badge}
               </span>
 
-              {/* Titel & Untertitel */}
               <h2 className="mt-3 text-xl font-semibold text-brand">
                 {p.title}
               </h2>
@@ -82,10 +120,8 @@ export default function ProduktePage() {
                 {p.subtitle}
               </p>
 
-              {/* Beschreibung */}
               <p className="mt-4 text-sm text-brand-ink">{p.description}</p>
 
-              {/* Bullets */}
               <ul className="mt-4 space-y-2 text-sm text-brand-ink">
                 {p.bullets.map((b, i) => (
                   <li key={i} className="flex gap-2">
@@ -95,10 +131,8 @@ export default function ProduktePage() {
                 ))}
               </ul>
 
-              {/* Format-Hinweis */}
               <p className="mt-5 text-xs text-brand-muted">{p.format}</p>
 
-              {/* CTA */}
               <div className="mt-auto pt-6">
                 <Link
                   href={p.href}
@@ -112,10 +146,157 @@ export default function ProduktePage() {
             </article>
           ))}
         </div>
+
+        {/* Bundle-Karte */}
+        <div className="mt-8">
+          <article
+            id={BUNDLE.id}
+            className="card scroll-mt-24 border-2 border-brand-accent"
+          >
+            <div className="flex flex-col gap-6 md:flex-row md:items-start">
+              {/* Linke Spalte: Inhalt */}
+              <div className="flex flex-1 flex-col">
+                <div className="flex items-center gap-3">
+                  <span className="inline-block rounded-full bg-brand-accent px-3 py-0.5 text-xs font-semibold uppercase tracking-wider text-brand-dark">
+                    {BUNDLE.badge}
+                  </span>
+                  <span className="text-xs font-semibold uppercase tracking-wider text-brand-accent-dark">
+                    Empfohlen
+                  </span>
+                </div>
+
+                <h2 className="mt-3 text-xl font-semibold text-brand">
+                  {BUNDLE.title}
+                </h2>
+                <p className="mt-1 text-sm font-medium text-brand-muted">
+                  {BUNDLE.subtitle}
+                </p>
+
+                <div className="mt-4 space-y-3 text-sm text-brand-ink">
+                  <p>Das Bundle kombiniert zwei praxisnahe PDF-Guides:</p>
+                  <ol className="list-decimal list-inside space-y-1 pl-1">
+                    <li>Lokale KI: Der Hardware-Guide 2026</li>
+                    <li>Lokale KI: Das Setup-Playbook 2026</li>
+                  </ol>
+                  <p>
+                    Du lernst, welche Hardwareklasse zu deinem Anwendungsfall passt und wie du mit
+                    LM Studio, Ollama, Open WebUI und ersten RAG-Grundlagen praktisch loslegst.
+                  </p>
+                </div>
+              </div>
+
+              {/* Rechte Spalte: Bullets + CTA */}
+              <div className="flex flex-1 flex-col">
+                <ul className="space-y-2 text-sm text-brand-ink">
+                  {BUNDLE.bullets.map((b, i) => (
+                    <li key={i} className="flex gap-2">
+                      <span className="mt-px shrink-0 text-brand-accent-dark">✓</span>
+                      <span>{b}</span>
+                    </li>
+                  ))}
+                </ul>
+
+                <p className="mt-5 text-xs text-brand-muted">{BUNDLE.format}</p>
+
+                <div className="mt-6">
+                  <Link
+                    href={BUNDLE.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-primary w-full text-center"
+                  >
+                    {BUNDLE.price}
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      {/* Entscheidungshilfe */}
+      <section className="border-t border-brand-line bg-brand/3">
+        <div className="container-page py-14">
+          <h2 className="text-2xl font-bold text-brand">
+            Unsicher, welches Produkt zu dir passt?
+          </h2>
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="rounded-lg border border-brand-line bg-white p-5">
+              <p className="text-xs font-semibold uppercase tracking-wider text-brand-accent-dark">
+                Hardware-Guide
+              </p>
+              <p className="mt-2 text-sm text-brand-ink">
+                Wenn du vor allem wissen möchtest, welche Hardware du brauchst, starte mit dem{" "}
+                <strong className="text-brand">Hardware-Guide</strong>.
+              </p>
+              <Link
+                href="https://afstechassets.gumroad.com/l/local-ai-hardware-guide"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block text-sm font-medium text-brand hover:underline"
+              >
+                Zum Hardware-Guide →
+              </Link>
+            </div>
+
+            <div className="rounded-lg border border-brand-line bg-white p-5">
+              <p className="text-xs font-semibold uppercase tracking-wider text-brand-accent-dark">
+                Setup-Playbook
+              </p>
+              <p className="mt-2 text-sm text-brand-ink">
+                Wenn du bereits Hardware hast und loslegen willst, nimm das{" "}
+                <strong className="text-brand">Setup-Playbook</strong>.
+              </p>
+              <Link
+                href="https://afstechassets.gumroad.com/l/local-ai-setup-playbook"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block text-sm font-medium text-brand hover:underline"
+              >
+                Zum Setup-Playbook →
+              </Link>
+            </div>
+
+            <div className="rounded-lg border border-brand-accent/40 bg-brand-accent/5 p-5">
+              <p className="text-xs font-semibold uppercase tracking-wider text-brand-accent-dark">
+                Starter Bundle
+              </p>
+              <p className="mt-2 text-sm text-brand-ink">
+                Wenn du lokale KI strukturiert starten möchtest, ist das{" "}
+                <strong className="text-brand">Starter Bundle</strong> die beste Wahl.
+              </p>
+              <Link
+                href="https://afstechassets.gumroad.com/l/local-ai-starter-bundle"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block text-sm font-medium text-brand hover:underline"
+              >
+                Zum Starter Bundle →
+              </Link>
+            </div>
+
+            <div className="rounded-lg border border-brand-line bg-white p-5">
+              <p className="text-xs font-semibold uppercase tracking-wider text-brand-accent-dark">
+                Beratung
+              </p>
+              <p className="mt-2 text-sm text-brand-ink">
+                Für individuelle Unterstützung bei Hardware-Auswahl, Setup oder RAG
+                mit Unternehmensdokumenten kannst du eine{" "}
+                <strong className="text-brand">Beratung</strong> bei AFS Tech &amp; Assets GmbH anfragen.
+              </p>
+              <Link
+                href="/kontakt/"
+                className="mt-4 inline-block text-sm font-medium text-brand hover:underline"
+              >
+                Beratung anfragen →
+              </Link>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Vertrauenshinweis */}
-      <section className="border-t border-brand-line bg-brand/3">
+      <section className="border-t border-brand-line">
         <div className="container-page py-10 text-center">
           <p className="text-sm text-brand-muted">
             Alle Produkte werden über{" "}
