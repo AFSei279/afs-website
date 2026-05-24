@@ -19,6 +19,7 @@ type Product = {
   format: string;
   href: string;
   price: string;
+  image?: { src: string; alt: string; width: number; height: number };
   highlight?: boolean;
 };
 
@@ -40,6 +41,12 @@ const PRODUCTS: Product[] = [
     format: "PDF · Sofort-Download",
     href: "https://afstechassets.gumroad.com/l/local-ai-hardware-guide",
     price: "Jetzt kaufen",
+    image: {
+      src: "/produkte/Lokale_KI_Hardware_Guide_Cover.png",
+      alt: "Lokale KI: Der Hardware-Guide 2026 – Cover",
+      width: 1672,
+      height: 941,
+    },
   },
   {
     id: "lokale-ki-setup-playbook",
@@ -58,6 +65,12 @@ const PRODUCTS: Product[] = [
     format: "PDF · Sofort-Download",
     href: "https://afstechassets.gumroad.com/l/local-ai-setup-playbook",
     price: "Jetzt kaufen",
+    image: {
+      src: "/produkte/Lokale_KI_Das_Setup-Playbook_2026.png",
+      alt: "Lokale KI: Das Setup-Playbook 2026 – Cover",
+      width: 1672,
+      height: 941,
+    },
   },
 ];
 
@@ -108,41 +121,58 @@ export default function ProduktePage() {
             <article
               key={p.id}
               id={p.id}
-              className="card flex flex-col scroll-mt-24"
+              className="card flex flex-col scroll-mt-24 overflow-hidden p-0"
             >
-              <span className="inline-block self-start rounded-full bg-brand-accent/15 px-3 py-0.5 text-xs font-semibold uppercase tracking-wider text-brand-accent-dark">
-                {p.badge}
-              </span>
+              {/* Produktbild */}
+              {p.image && (
+                <div className="overflow-hidden">
+                  <Image
+                    src={p.image.src}
+                    alt={p.image.alt}
+                    width={p.image.width}
+                    height={p.image.height}
+                    unoptimized
+                    className="w-full object-cover"
+                  />
+                </div>
+              )}
 
-              <h2 className="mt-3 text-xl font-semibold text-brand">
-                {p.title}
-              </h2>
-              <p className="mt-1 text-sm font-medium text-brand-muted">
-                {p.subtitle}
-              </p>
+              {/* Karteninhalt */}
+              <div className="flex flex-1 flex-col p-6">
+                <span className="inline-block self-start rounded-full bg-brand-accent/15 px-3 py-0.5 text-xs font-semibold uppercase tracking-wider text-brand-accent-dark">
+                  {p.badge}
+                </span>
 
-              <p className="mt-4 text-sm text-brand-ink">{p.description}</p>
+                <h2 className="mt-3 text-xl font-semibold text-brand">
+                  {p.title}
+                </h2>
+                <p className="mt-1 text-sm font-medium text-brand-muted">
+                  {p.subtitle}
+                </p>
 
-              <ul className="mt-4 space-y-2 text-sm text-brand-ink">
-                {p.bullets.map((b, i) => (
-                  <li key={i} className="flex gap-2">
-                    <span className="mt-px shrink-0 text-brand-accent-dark">✓</span>
-                    <span>{b}</span>
-                  </li>
-                ))}
-              </ul>
+                <p className="mt-4 text-sm text-brand-ink">{p.description}</p>
 
-              <p className="mt-5 text-xs text-brand-muted">{p.format}</p>
+                <ul className="mt-4 space-y-2 text-sm text-brand-ink">
+                  {p.bullets.map((b, i) => (
+                    <li key={i} className="flex gap-2">
+                      <span className="mt-px shrink-0 text-brand-accent-dark">✓</span>
+                      <span>{b}</span>
+                    </li>
+                  ))}
+                </ul>
 
-              <div className="mt-auto pt-6">
-                <Link
-                  href={p.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-primary w-full text-center"
-                >
-                  {p.price}
-                </Link>
+                <p className="mt-5 text-xs text-brand-muted">{p.format}</p>
+
+                <div className="mt-auto pt-6">
+                  <Link
+                    href={p.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-primary w-full text-center"
+                  >
+                    {p.price}
+                  </Link>
+                </div>
               </div>
             </article>
           ))}
@@ -155,14 +185,14 @@ export default function ProduktePage() {
             className="card scroll-mt-24 overflow-hidden border-2 border-brand-accent p-0"
           >
             {/* Cover-Bild */}
-            <div className="relative w-full">
+            <div className="max-h-56 overflow-hidden">
               <Image
                 src="/produkte/Lokale_KI_Starter_Bundle_2026_Cover_1280x720.png"
                 alt="Lokale KI Starter Bundle 2026 – Cover"
                 width={1280}
                 height={720}
                 unoptimized
-                className="w-full object-cover"
+                className="w-full object-cover object-center"
                 priority
               />
             </div>
