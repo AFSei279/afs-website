@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title: "Digitale Produkte",
@@ -151,10 +152,24 @@ export default function ProduktePage() {
         <div className="mt-8">
           <article
             id={BUNDLE.id}
-            className="card scroll-mt-24 border-2 border-brand-accent"
+            className="card scroll-mt-24 overflow-hidden border-2 border-brand-accent p-0"
           >
-            <div className="flex flex-col gap-6 md:flex-row md:items-start">
-              {/* Linke Spalte: Inhalt */}
+            {/* Cover-Bild */}
+            <div className="relative w-full">
+              <Image
+                src="/produkte/Lokale_KI_Starter_Bundle_2026_Cover_1280x720.png"
+                alt="Lokale KI Starter Bundle 2026 – Cover"
+                width={1280}
+                height={720}
+                unoptimized
+                className="w-full object-cover"
+                priority
+              />
+            </div>
+
+            {/* Karteninhalt */}
+            <div className="flex flex-col gap-6 p-6 md:flex-row md:items-start">
+              {/* Linke Spalte: Badges + Text */}
               <div className="flex flex-1 flex-col">
                 <div className="flex items-center gap-3">
                   <span className="inline-block rounded-full bg-brand-accent px-3 py-0.5 text-xs font-semibold uppercase tracking-wider text-brand-dark">
@@ -185,8 +200,19 @@ export default function ProduktePage() {
                 </div>
               </div>
 
-              {/* Rechte Spalte: Bullets + CTA */}
+              {/* Rechte Spalte: Thumbnail + Bullets + CTA */}
               <div className="flex flex-1 flex-col">
+                <div className="mb-4 overflow-hidden rounded-lg">
+                  <Image
+                    src="/produkte/Lokale_KI_Starter_Bundle_2026_Thumbnail_600x600.png"
+                    alt="Lokale KI Starter Bundle 2026 – Thumbnail"
+                    width={600}
+                    height={600}
+                    unoptimized
+                    className="w-full object-cover"
+                  />
+                </div>
+
                 <ul className="space-y-2 text-sm text-brand-ink">
                   {BUNDLE.bullets.map((b, i) => (
                     <li key={i} className="flex gap-2">
