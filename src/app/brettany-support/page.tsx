@@ -153,6 +153,20 @@ export default function BrettanySupportPage() {
         </div>
       </section>
 
+      {/* Übersichts-Banner: alle Kern-Features auf einen Blick */}
+      <section className="border-b border-brand-line bg-brand-paper">
+        <div className="container-page py-12 md:py-16">
+          <Image
+            src="/brettany/uebersicht.png"
+            alt="Brettany im Überblick: Spielesammlung, Spiel-Details, Partien festhalten, Statistiken und Leistungsvergleich"
+            width={1536}
+            height={1024}
+            sizes="(min-width: 1024px) 1024px, 100vw"
+            className="mx-auto h-auto w-full max-w-5xl rounded-2xl shadow-md"
+          />
+        </div>
+      </section>
+
       {/* App Store Download */}
       <section className="border-b border-brand-line bg-white">
         <div className="container-page py-10">
