@@ -33,9 +33,15 @@ export function Footer() {
                       <ul className="mt-1 ml-3 space-y-1 border-l border-brand-line pl-3">
                         {link.children.map((child) => (
                           <li key={child.href}>
-                            <Link href={child.href} className="hover:text-brand">
-                              {child.label}
-                            </Link>
+                            {"external" in child && child.external ? (
+                              <a href={child.href} target="_blank" rel="noopener noreferrer" className="hover:text-brand">
+                                {child.label}
+                              </a>
+                            ) : (
+                              <Link href={child.href} className="hover:text-brand">
+                                {child.label}
+                              </Link>
+                            )}
                           </li>
                         ))}
                       </ul>

@@ -41,7 +41,7 @@ export const SITE = {
 export type NavLink = {
   label: string;
   href?: string;
-  children?: ReadonlyArray<{ href: string; label: string }>;
+  children?: ReadonlyArray<{ href: string; label: string; external?: boolean }>;
 };
 
 export const NAV_LINKS: ReadonlyArray<NavLink> = [
@@ -55,6 +55,7 @@ export const NAV_LINKS: ReadonlyArray<NavLink> = [
   {
     label: "Brettany",
     children: [
+      { href: "https://apps.apple.com/de/app/brettany/id6772245849", label: "Im App Store", external: true },
       { href: "/brettany-support/", label: "Support" },
       { href: "/brettany-privacy/", label: "Datenschutz" },
     ],
