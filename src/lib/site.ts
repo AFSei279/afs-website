@@ -49,8 +49,17 @@ export const NAV_LINKS: ReadonlyArray<NavLink> = [
   { href: "/leistungen/", label: "Leistungen" },
   { href: "/produkte/", label: "Digitale Produkte" },
   {
-    href: "/tools/lokaler-ki-hardware-rechner/",
-    label: "KI-Hardware-Rechner",
+    label: "Tools",
+    children: [
+      {
+        href: "/tools/ki-entscheidungsberater/",
+        label: "KI-Entscheidungsberater",
+      },
+      {
+        href: "/tools/lokaler-ki-hardware-rechner/",
+        label: "KI-Hardware-Rechner",
+      },
+    ],
   },
   {
     label: "Brettany",

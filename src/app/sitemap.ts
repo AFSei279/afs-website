@@ -6,6 +6,7 @@ const ROUTES: { path: string; priority: number; changeFrequency: "weekly" | "mon
   { path: "/leistungen/", priority: 0.8, changeFrequency: "monthly" },
   { path: "/produkte/", priority: 0.9, changeFrequency: "weekly" },
   { path: "/leistungen/app-entwicklung/", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/tools/ki-entscheidungsberater/", priority: 0.9, changeFrequency: "monthly" },
   { path: "/tools/lokaler-ki-hardware-rechner/", priority: 0.9, changeFrequency: "monthly" },
   { path: "/ueber-mich/", priority: 0.6, changeFrequency: "monthly" },
   { path: "/kontakt/", priority: 0.5, changeFrequency: "yearly" },
