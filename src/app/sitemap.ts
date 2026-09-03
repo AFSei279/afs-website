@@ -12,6 +12,8 @@ const ROUTES: { path: string; priority: number; changeFrequency: "weekly" | "mon
   { path: "/kontakt/", priority: 0.5, changeFrequency: "yearly" },
   { path: "/brettany-support/", priority: 0.5, changeFrequency: "monthly" },
   { path: "/brettany-privacy/", priority: 0.3, changeFrequency: "yearly" },
+  { path: "/baumstark-kdk-support/", priority: 0.5, changeFrequency: "monthly" },
+  { path: "/baumstark-kdk-privacy/", priority: 0.3, changeFrequency: "yearly" },
   { path: "/impressum/", priority: 0.1, changeFrequency: "yearly" },
 ];
 
