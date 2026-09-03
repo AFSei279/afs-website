@@ -296,7 +296,7 @@ export default function BrettanySupportPage() {
             <div className="mt-8">
               <LeadForm
                 formId="brettany-support"
-                defaultMessage="Gerät: \niOS-Version: \nBrettany-Version: \n\nBeschreibung:"
+                defaultMessage={"Gerät: \niOS-Version: \nBrettany-Version: \n\nBeschreibung:"}
                 successMessage="Vielen Dank — wir haben Ihre Support-Anfrage erhalten und melden uns innerhalb eines Werktags."
               />
             </div>
