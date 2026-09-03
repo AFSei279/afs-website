@@ -69,6 +69,13 @@ export const NAV_LINKS: ReadonlyArray<NavLink> = [
       { href: "/brettany-privacy/", label: "Datenschutz" },
     ],
   },
+  {
+    label: "BAUMSTARK",
+    children: [
+      { href: "/baumstark-kdk-support/", label: "Support" },
+      { href: "/baumstark-kdk-privacy/", label: "Datenschutz" },
+    ],
+  },
   { href: "/ueber-mich/", label: "Über mich" },
   { href: "/kontakt/", label: "Kontakt" },
 ] as const;
