@@ -9,8 +9,7 @@ export const metadata = {
   alternates: { canonical: "/baumstark-kdk-support/" },
 };
 
-// TODO ANDRÉ: App-Store-URL ergänzen, sobald die App live ist.
-const APP_STORE_URL = "#";
+const APP_STORE_URL = "https://apps.apple.com/de/app/baumstark-kdk/id6808569818";
 
 const HOW_TOS = [
   {
