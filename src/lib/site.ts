@@ -72,6 +72,7 @@ export const NAV_LINKS: ReadonlyArray<NavLink> = [
   {
     label: "BAUMSTARK",
     children: [
+      { href: "https://apps.apple.com/de/app/baumstark-kdk/id6808569818", label: "Im App Store", external: true },
       { href: "/baumstark-kdk-support/", label: "Support" },
       { href: "/baumstark-kdk-privacy/", label: "Datenschutz" },
     ],
