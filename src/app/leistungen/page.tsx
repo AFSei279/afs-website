@@ -49,6 +49,21 @@ const SERVICES: Service[] = [
     hrefLabel: "Zum Website-Paket",
   },
   {
+    id: "werbebilder-videos",
+    title: "Werbebilder & Videos",
+    intro:
+      "Werbebilder, Social-Media-Grafiken und kurze Werbevideos für Ihren Betrieb — KI-gestützt erstellt, im eigenen Markenstil und von Hand geprüft.",
+    bullets: [
+      "Bilder-Paket: 10 Werbebilder für 390 €.",
+      "Video-Paket: 3 Kurzvideos für 690 €.",
+      "Content-Abo: 12 Bilder und 2 Videos für 490 € pro Monat.",
+      "Kostenloses Probemotiv vor der Beauftragung.",
+    ],
+    deliverable: "Werbung in Agenturqualität — schnell geliefert, zum Festpreis.",
+    href: "/leistungen/werbebilder-videos/",
+    hrefLabel: "Zu Werbebilder & Videos",
+  },
+  {
     id: "beratung",
     title: "Beratung & Use-Case-Analyse",
     intro:
@@ -164,7 +179,7 @@ export default function LeistungenPage() {
           </h1>
           <p className="mt-5 max-w-2xl text-lg text-white/85">
             Wir begleiten den ganzen Weg — und Sie bestimmen, an welchen Punkten Sie
-            uns brauchen. Von KI-Automatisierung über Websites bis zur eigenen App — alle
+            uns brauchen. Von KI-Automatisierung über Websites und Werbemedien bis zur eigenen App — alle
             mit demselben Anspruch: durchdacht, sauber dokumentiert und in Ihrem
             Haus betreibbar.
           </p>

@@ -52,6 +52,7 @@ export const NAV_LINKS: ReadonlyArray<NavLink> = [
       { href: "/leistungen/", label: "Übersicht" },
       { href: "/leistungen/ki-quickstart/", label: "KI-Quickstart" },
       { href: "/leistungen/website-paket/", label: "Website-Paket" },
+      { href: "/leistungen/werbebilder-videos/", label: "Werbebilder & Videos" },
       { href: "/leistungen/app-entwicklung/", label: "App-Entwicklung" },
     ],
   },
