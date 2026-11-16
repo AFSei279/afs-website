@@ -42,20 +42,17 @@ export function Navigation() {
       <div className="container-page flex h-16 items-center justify-between">
         <Link
           href="/"
-          className="flex items-center gap-3 text-brand"
+          className="flex items-center text-brand"
           onClick={() => setOpen(false)}
         >
           <Image
-            src="/logo.png"
-            alt="AFS Tech & Assets Logo"
-            width={40}
-            height={40}
-            className="h-10 w-10 object-contain"
+            src="/brand/afs-logo-quer.svg"
+            alt={SITE.name}
+            width={1865}
+            height={616}
+            className="h-11 w-auto"
             priority
           />
-          <span className="hidden text-base font-semibold sm:inline">
-            {SITE.shortName}
-          </span>
         </Link>
 
         <nav

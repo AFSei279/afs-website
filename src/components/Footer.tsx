@@ -7,7 +7,15 @@ export function Footer() {
       <div className="container-page py-12">
         <div className="grid gap-10 md:grid-cols-3">
           <div>
-            <p className="text-base font-semibold text-brand">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/brand/afs-logo-quer.svg"
+              alt={SITE.name}
+              width={1865}
+              height={616}
+              className="h-14 w-auto"
+            />
+            <p className="mt-3 text-sm font-semibold text-brand">
               {SITE.name}
             </p>
             <p className="mt-2 max-w-sm text-sm text-brand-muted">
