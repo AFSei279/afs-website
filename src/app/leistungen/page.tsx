@@ -19,6 +19,36 @@ type Service = {
 
 const SERVICES: Service[] = [
   {
+    id: "ki-quickstart",
+    title: "KI-Quickstart (Festpreis)",
+    intro:
+      "Der schnellste Einstieg: In vier Wochen finden wir die Aufgaben mit dem größten Zeitgewinn und setzen die drei wichtigsten als KI-Automatisierung um.",
+    bullets: [
+      "Halbtägiger Prozess-Workshop, remote.",
+      "Drei umgesetzte Automatisierungen, z. B. Angebote, E-Mail-Eingang, Wissenssuche.",
+      "Dokumentation, Team-Schulung und KI-Nutzungsrichtlinie.",
+      "Optional: monatliche Betreuung ab 249 €.",
+    ],
+    deliverable: "Drei laufende Automatisierungen zum Festpreis von 1.890 € netto.",
+    href: "/leistungen/ki-quickstart/",
+    hrefLabel: "Zum KI-Quickstart",
+  },
+  {
+    id: "website-paket",
+    title: "Website-Paket mit Wartung",
+    intro:
+      "Schnelle, sichere und DSGVO-saubere Websites für Handwerk, Praxen und lokale Betriebe — mit derselben Technik wie diese Seite.",
+    bullets: [
+      "Onepager ab 990 €, Business-Website mit Terminbuchung 1.890 €.",
+      "Kein WordPress, keine Plugins, keine Sicherheitslücken.",
+      "Kontaktformular, lokale SEO und cookie-freie Statistik.",
+      "Wartung ab 79 € pro Monat, monatlich kündbar.",
+    ],
+    deliverable: "Eine Website, die Anfragen bringt — online in zwei bis drei Wochen.",
+    href: "/leistungen/website-paket/",
+    hrefLabel: "Zum Website-Paket",
+  },
+  {
     id: "beratung",
     title: "Beratung & Use-Case-Analyse",
     intro:
@@ -134,7 +164,7 @@ export default function LeistungenPage() {
           </h1>
           <p className="mt-5 max-w-2xl text-lg text-white/85">
             Wir begleiten den ganzen Weg — und Sie bestimmen, an welchen Punkten Sie
-            uns brauchen. Sieben Bereiche von lokaler KI bis zur eigenen App — alle
+            uns brauchen. Von KI-Automatisierung über Websites bis zur eigenen App — alle
             mit demselben Anspruch: durchdacht, sauber dokumentiert und in Ihrem
             Haus betreibbar.
           </p>
